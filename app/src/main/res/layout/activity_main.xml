@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:background="@drawable/sky">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="vertical"
+        android:gravity="center">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textSize="34dp"
+            android:textStyle="bold"
+            android:text="Selecciona una ciudad:"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent" android:orientation="vertical"
+        android:gravity="center">
+        <TextView android:id="@+id/tvAsu" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textSize="24dp"
+            android:text="Asuncion" android:layout_margin="10dp"/>
+        <TextView android:id="@+id/tvCde" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textSize="24dp"
+            android:text="Ciudad del Este" android:layout_margin="10dp"/>
+        <TextView android:id="@+id/tvVill" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textSize="24dp"
+            android:text="Villarrica" android:layout_margin="10dp"/>
+        <TextView android:id="@+id/tvLoma" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textSize="24dp"
+            android:text="Loma Plata" android:layout_margin="10dp"/>
+        <TextView android:id="@+id/tvEncar" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textSize="24dp"
+            android:text="Encarnacion" android:layout_margin="10dp"/>
+    </LinearLayout>
+</RelativeLayout>
